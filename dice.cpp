@@ -3,7 +3,12 @@
 using namespace std;
 
 int main()
-{
+{   
+    string name;
+    cout << "What is your name?" << endl;
+    cout << "> "; cin >> name;
+    cout << "Hello, " << name << "!" << endl;
+    
     cout << "Rolling the dice..." << endl;
 
     random_device rnd;
